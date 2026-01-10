@@ -27,9 +27,6 @@ services:
     working_dir: /home/frappe
     volumes:
       - .:/workspace
-    ports:
-      - 8201:8000
-      - 9201:9000
 
 volumes:
   mariadb-data:
