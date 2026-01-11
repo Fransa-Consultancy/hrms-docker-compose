@@ -27,12 +27,6 @@ services:
     working_dir: /home/frappe
     volumes:
       - .:/workspace
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.services.frappe.loadbalancer.server.port=8201"
-    ports:
-      - 8201
-      - 9201
 
 volumes:
   mariadb-data:
