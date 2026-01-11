@@ -31,8 +31,8 @@ services:
       - "traefik.enable=true"
       - "traefik.http.services.frappe.loadbalancer.server.port=8000"
     ports:
-      - 8000
-      - 9000
+      - 8201
+      - 9201
 
 volumes:
   mariadb-data:
